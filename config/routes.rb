@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :events
 
 	get 'pages/about'
+	get 'pages/dashboard'
+
 	root :to => 'pages#about'
 
 	

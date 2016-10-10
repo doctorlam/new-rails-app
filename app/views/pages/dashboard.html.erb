@@ -1,0 +1,8 @@
+<h1>Events for <%= current_user.email %></h1>
+<ul>
+	<% @events.each do |event| %>
+		<li>
+			<%= event.name %>
+		</li>
+	<% end %>
+</ul>
